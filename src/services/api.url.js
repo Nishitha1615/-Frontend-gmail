@@ -1,0 +1,26 @@
+export const API_URLS={
+    saveSentEmail:{
+        endpoint:"save",
+        method:"POST"
+    },
+    getEmailFromType:{
+        endpoint:"emails",
+        method:"GET"
+    },
+    saveDraftEmails:{
+        endpoint:"draft",
+        method:"POST"
+    },
+    DeleteEmails:{
+        endpoint:"bin",
+        method:"POST"
+    },
+    StarEmail:{
+        endpoint:"started",
+        method:"POST"
+    },
+    MailDelete:{
+        endpoint:"delete",
+        method:"DELETE"
+    }
+}
